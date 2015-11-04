@@ -38,7 +38,7 @@ function KeyBindings($root, reader, hoverBox){
   var obj = this;
   obj.init = function(config){
     var bindings = { 75 : "prev", 74 : "next", 80 : "togglePause"
-                   , 72 : "slowDown", 76: "speedUp", 27: "close"};
+                   , 76 : "slowDown", 72: "speedUp", 27: "close"};
     $(document).keyup(function(e){
       var method = bindings[e.keyCode];
       if(typeof(reader[method]) == "function"){
