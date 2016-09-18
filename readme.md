@@ -32,3 +32,8 @@ J/K : skip ahead / skip backwards
 H/L : speed up / slow down
 
 P : pause / resume
+
+
+Keywords
+-------
+forcefeed force-feed bookmarklet speedread speed read qwerjk
